@@ -27,7 +27,7 @@ class MasterRouter extends BaseRouter {
   /**
    * Connect routes to their matching routers.
    */
-   protected init() {
+  protected init() {
     this.router.use("/test", testRouter);
     this.router.use("/services/app", authLoginRouter);
   }
